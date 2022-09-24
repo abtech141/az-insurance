@@ -8,7 +8,7 @@ export default class CmsBlogList extends NavigationMixin(LightningElement) {
     @api pageTitle;
 
     blogs;
-
+// bug fix
     @wire(getContentList, {
         page: 0,
         pageSize: '$maxEntries',
