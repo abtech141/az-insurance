@@ -17,6 +17,7 @@ export default class CardsSectionWithHeader extends LightningElement {
     @api redirectPageApiName3;
 
     get cardsContent() {
+        //changes for code review
         let cardsContent = [];
         if (this.buttonLabel1) {
             cardsContent.push({
