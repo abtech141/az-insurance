@@ -23,7 +23,7 @@ export default class AuthNavigationMenu extends NavigationMixin(
     hamburgerIcon = AGENT_HAMBURGER_ICON;
     profileIcon = AGENT_PROFILE_ICON;
     xIcon = AGENT_X_ICON;
-
+// Code review US118
     @wire(getNavigationMenuItems, {
         menuName: '$menuName',
         publishedState: '$publishedState'
